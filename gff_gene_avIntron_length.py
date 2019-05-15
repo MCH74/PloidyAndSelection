@@ -1,6 +1,20 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
+"""
+usage: gff_gene_avIntron_length.py [-h] -g GFF [-n NAME] [-o OUTPUT]
 
+Reads a gff file and calculates gene lengths and average intron lengths.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -g GFF, --gff GFF     The gff file to parse.
+  -n NAME, --name NAME  The name of the gene identifier field in the gff
+                        (default: Parent=).
+  -o OUTPUT, --output OUTPUT
+                        The name (and path) of the output file in which the
+                        results should be written.
+
+"""
 import re
 import argparse
 from collections import defaultdict
