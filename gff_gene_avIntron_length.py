@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
 """
+Created by Elias Dohmen
+
 usage: gff_gene_avIntron_length.py [-h] -g GFF [-n NAME] [-o OUTPUT]
 
 Reads a gff file and calculates gene lengths and average intron lengths.
