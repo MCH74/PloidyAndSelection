@@ -17,7 +17,7 @@ def sample(length): #argument is length of table, i.e. number of rows
 
 #run dofe command with grapes on input file
 def dofe_cmd(dofe_infile,group):
-    proc = subprocess.Popen(['/global/group/home/harrisom/Leicester/grapes-master/grapes/grapes', '-in', dofe_infile, '-out', 'out.txt', '-model', 'GammaZero'], stderr = subprocess.PIPE, stdout = subprocess.PIPE)
+    proc = subprocess.Popen(['~/grapes-master/grapes/grapes', '-in', dofe_infile, '-out', 'out.txt', '-model', 'GammaZero'], stderr = subprocess.PIPE, stdout = subprocess.PIPE)
     stdout,stderr = proc.communicate()
     return proc.returncode, stdout, stderr
 
