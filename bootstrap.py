@@ -41,13 +41,3 @@ print(np.mean(sos5), conf(sos5)[0], conf(sos5)[1])
 print(np.mean(basic), conf(basic)[0], conf(basic)[1]) 
 print(np.mean(fww), conf(fww)[0], conf(fww)[1]) 
 print(np.mean(gammaz), conf(gammaz)[0], conf(gammaz)[1]) 
-
-"""         print(n)
-            print(words[int(n)+15][12:])
-            print(words[int(n)+16][11:])
-            print(words[int(n)+17][10:])
-            print(words[int(n)+18][9:])
-            print(words[int(n)+19][7:])
-            print(words[int(n)+27][8:-2])
-            print(words[int(n)+28][12:-2])
-            print(words[int(n)+29][12:])"""
